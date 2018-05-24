@@ -172,7 +172,7 @@ section.sec1 {
 .container-element2 {
 	background-color: #FFFFFF;
 	border-radius: 4px;
-	width: 94.5%;
+	width: 100%;
 	padding: 2px;
     margin-bottom: 5%
 }
@@ -189,7 +189,7 @@ section.sec1 {
     display: block;
     width: 45%;
     float: left;
-    margin-right: 5%;
+    margin-right: 10%;
 	margin-bottom: 5%;
 	background-color: #FFFFFF;
 	border-radius: 4px;
@@ -207,7 +207,6 @@ section.sec1 {
     display: block;
     width: 45%;
     float: left;
-    margin-right: 5%;
 	margin-bottom: 5%;
 	background-color: #FFFFFF;
 	border-radius: 4px;
