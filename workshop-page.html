@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="initial-scale=1" />
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Allan" rel="stylesheet">
+<title>Vrøgum | Værkstedet</title>
+<script src="script.js"></script>
+</head>
+<body onload="getData()">
+
+<nav class="navbar">
+    <div id="navbar">
+        <div class="menulog">
+            <img src="img/logo.png" alt="Vrøgum" height="73" width="280">
+        </div>
+    <ul>
+        <li id="index"><a href="index.html">Forside</a></li>
+        <li id="work"><a href="workshop-page.html">Værkstedet</a></li>
+        <li id="contact"><a href="lobet.html">Vrøgum Løbet</a></li>
+     </ul>
+    </div>
+</nav>  
+
+<header>
+    <div class="cover2"><div class="outline"><h1 class="h1cover">Vrøgum Værkstedet</h1></div></div>
+</header>
+
+<section class="sec1">
+    <div class="container-element">
+		<div class="container-element2">
+        <div class="center">
+        
+		<div style="width: 60%"><h3>Det sker i værkstedet:</h3><p>Savner du også sammenholdet og hyggestemningen i byen? Så har du nu muligheden for at være en del af det. Vrøgum værkstedet er et videnscenter, hvor man kan afholde workshops og dele ud af sine hobbyer.</p><p>Har du forslag til kommende arrangementer, kan du skrive dit forslag på opslagstavlen nedenfor.</p>
+        <br /><p>Kommende arrangementer:</p>
+        <ul>
+        <li><i>Male-workshop den 30.06.2018</i></li>
+        <li><i>Herreaften den 15.07.2018</i></li>
+        <li><i>Fisketur den 25.07.2018</i></li>
+        <li><i>Zumba den 10.08.2018</i></li>
+        </ul>
+        <br />
+        </div>
+        </div>
+        </div>
+        
+		<article class="articlewhite1">
+            <h3>Tilmelding</h3>
+		<div class="form1">
+			<form action="tilmeldt.html" method="post">
+  			Fornavn:<br>
+  			<input type="text" required><br>
+ 			 Efternavn:<br>
+ 			 <input type="text" required><br>
+			Tlf. nr.:<br>
+  			<input type="number" required><br>
+			Email:<br>
+  			<input type="text"><br>
+			Arrangement:<br>
+  			<select class="dropdown" id="arrangement" name="arrlist">
+  			<option value="arr1">Vælg arrangement...</option>
+			<option value="arr1">Male-workshop</option>
+  			<option value="arr2">Herreaften</option>
+  			<option value="arr3">Fisketur</option>
+  			<option value="arr4">Zumba</option>
+			</select><br><br>
+			<input type="submit" name="Tilmeld" value="Tilmeld">
+			</form>
+			<p>&nbsp;</p>
+			</div>
+        </article>
+        
+		<article class="articlewhite3">
+			<div><h3>Opslagstavle</h3></div>
+		<div class="form1">
+	<section id="commentsection">
+        <div id="commentsView" class="commentView"></div>
+        <br />
+        <div id="newcomment">
+            <form name="myForm" onsubmit="writeData()">
+                <input id="comment" type="text" placeholder="Skriv et nyt forslag...">
+                <input type="submit" value="Indsend forslag">
+            </form>
+            <br />
+            <input type="button" class="button" value="Slet opslagstavle" onclick="clearStorage()">
+			<p>&nbsp;</p>
+        </div>
+    </section>
+
+			</div>
+        </article>
+    </div>
+	
+	</section>
+
+<div class="footer">
+  <div class="container-footer">
+  <p>© 2018 Vrøgum by og opland. All rights reserved</p>
+  <a href="https://www.facebook.com/groups/vboif/about/" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook-square" aria-hidden="true" style="font-size:60px;color:#3b5998"></i></a>
+</div>
+	</div>
+
+</body>
+</html>
