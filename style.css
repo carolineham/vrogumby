@@ -161,11 +161,12 @@ section.sec1 {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    text-align: center;    
+    text-align: center;
+    min-height: 250px;
 }
 
 .container-element {
-    padding: 20px 40px;
+    padding: 10px;
     position: relative;
 }
 
